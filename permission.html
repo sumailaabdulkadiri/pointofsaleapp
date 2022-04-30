@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8">
+    <title>POS - Dashboard</title>
+
+    <!-- ================  all css link
+    ========================= -->
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <!-- css animation -->
+    <link rel="stylesheet" href="assets/css/cssanimation.min.css">
+    <!-- owl carousel -->
+    <link rel="stylesheet" href="assets/css/owl.carousel.css">
+    <link rel="stylesheet" href="assets/css/owl.theme.default.css">
+    <!-- ico font -->
+    <link rel="stylesheet" href="icofont.min.css">
+    <!-- custom css -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <!-- media css -->
+    <link rel="stylesheet" href="assets/css/responsive.css">
+</head>
+
+<body>
+
+
+    <!-- header -->
+    <header class="header">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="logo content">
+                        <a href="#"><img src="assets/images/logo.png" alt=""></a>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="content search">
+                        <ul>
+                            <li>
+                                <div class="search-box box">
+                                    <span><i class="icofont-search"></i></span>
+                                    <input type="text" placeholder="Search">
+                                </div>
+                            </li>
+                            <li><button><img src="assets/images/1.png" alt=""></button></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="content user">
+                        <ul>
+                            <li><img src="assets/images/2.png" alt=""></li>
+                            <li style="width: auto;"><i class="icofont-alarm"></i></li>
+                            <li><img src="assets/images/3.png" alt=""></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- end header -->
+
+
+    <!-- main content -->
+    <section class="main-content">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-2">
+                    <!-- left menu -->
+                    <div class="left_menu">
+                        <div class="menu_one">
+                            <h5>dashboard</h5>
+                            <ul>
+                                <li><a href="intex.html"><span><i class="icofont-chart-growth"></i></span> Dashboard</a></li>
+                                <li><a href="items.html"><span><i class="icofont-facebook-messenger"></i></span> Sales By Item</a></li>
+                                <li><a href="#"><span><i class="icofont-chart-growth"></i></span> Sales By Category</a></li>
+                                <li><a href="Customers.html"><span><i class="icofont-users-alt-4"></i></span> Customers</a></li>
+                                <li><a href="items.html"><span><i class="icofont-paper"></i></span> Item List</a></li>
+                                <li><a href="#"><span><i class="icofont-newspaper"></i></span> Categories</a></li>
+                            </ul>
+                        </div>
+                        <div class="menu_two">
+                            <h5>users</h5>
+                            <ul>
+                                <li><a href="users.html"><i class="icofont-users-alt-4"></i> Users</a></li>
+                                <li><a href="#"><span><i class="icofont-paper"></i></span> Role</a></li>
+                                <li class="active"><a href="permission.html"><span><i class="icofont-check-circled"></i></span> Permission</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- lend eft menu -->
+                </div>
+                <div class="col-lg-10">
+                    <!-- body content -->
+                    <div class="body_content">
+                        <!-- top bar -->
+                        <div class="top_bar">
+                            <div class="headline">
+                                <h3>Customers</h3>
+                                <p>Set Permissions for the <span style="font-weight: 600;">Administrator</span></p>
+                            </div>
+                            <div class="buttons">
+                                <span><i class="icofont-search"></i></span>
+                                <button style="background: #1CBE20; color: #fff;"><a href="add_new_customer.html" style="text-decoration: none; color: #fff;">Add New Customer</a></button>
+                            </div>
+                        </div>
+                        <!-- end top bar -->
+                        <!-- permission list -->
+                        <div class="permission_list">
+                            <h4>Permissions List</h4>
+                            <div class="row">
+                                <div class="col-md-4 col-sm-6">
+                                    <!-- permission single -->
+                                    <div class="permission-single">
+                                        <label class="check_container">
+                                            <input type="checkbox" checked="checked">
+                                            <span class="checkmark"></span>
+                                        </label>
+                                        <div class="content">
+                                            <h5>Manage Accounts <span>The user can manage accounts with this permission</span></h5>
+                                        </div>
+                                    </div>
+                                    <!-- end permission single -->
+                                </div>
+                                <div class="col-md-4 col-sm-6">
+                                    <!-- permission single -->
+                                    <div class="permission-single">
+                                        <label class="check_container">
+                                            <input type="checkbox" checked="checked">
+                                            <span class="checkmark"></span>
+                                        </label>
+                                        <div class="content">
+                                            <h5>Manage Customers <span>The user can manage accounts with this permission</span></h5>
+                                        </div>
+                                    </div>
+                                    <!-- end permission single -->
+                                </div>
+                                <div class="col-md-4 col-sm-6">
+                                    <!-- permission single -->
+                                    <div class="permission-single">
+                                        <label class="check_container">
+                                            <input type="checkbox" checked="checked">
+                                            <span class="checkmark"></span>
+                                        </label>
+                                        <div class="content">
+                                            <h5>Manage Items <span>The user can manage accounts with this permission</span></h5>
+                                        </div>
+                                    </div>
+                                    <!-- end permission single -->
+                                </div>
+                                <div class="col-md-4 col-sm-6">
+                                    <!-- permission single -->
+                                    <div class="permission-single">
+                                        <label class="check_container">
+                                            <input type="checkbox" checked="checked">
+                                            <span class="checkmark"></span>
+                                        </label>
+                                        <div class="content">
+                                            <h5>Manage Roles <span>The user can manage accounts with this permission</span></h5>
+                                        </div>
+                                    </div>
+                                    <!-- end permission single -->
+                                </div>
+                                <div class="col-md-4 col-sm-6">
+                                    <!-- permission single -->
+                                    <div class="permission-single">
+                                        <label class="check_container">
+                                            <input type="checkbox">
+                                            <span class="checkmark"></span>
+                                        </label>
+                                        <div class="content">
+                                            <h5>Manage Categories <span>The user can manage accounts with this permission</span></h5>
+                                        </div>
+                                    </div>
+                                    <!-- end permission single -->
+                                </div>
+                                <div class="col-md-4 col-sm-6">
+                                    <!-- permission single -->
+                                    <div class="permission-single">
+                                        <label class="check_container">
+                                            <input type="checkbox">
+                                            <span class="checkmark"></span>
+                                        </label>
+                                        <div class="content">
+                                            <h5>Manage Access <span>The user can manage accounts with this permission</span></h5>
+                                        </div>
+                                    </div>
+                                    <!-- end permission single -->
+                                </div>
+                                <div class="col-md-4 col-sm-6">
+                                    <!-- permission single -->
+                                    <div class="permission-single">
+                                        <label class="check_container">
+                                            <input type="checkbox" checked="checked">
+                                            <span class="checkmark"></span>
+                                        </label>
+                                        <div class="content">
+                                            <h5>Create User <span>The user can manage accounts with this permission</span></h5>
+                                        </div>
+                                    </div>
+                                    <!-- end permission single -->
+                                </div>
+                                <div class="col-md-4 col-sm-6">
+                                    <!-- permission single -->
+                                    <div class="permission-single">
+                                        <label class="check_container">
+                                            <input type="checkbox">
+                                            <span class="checkmark"></span>
+                                        </label>
+                                        <div class="content">
+                                            <h5>Create Receipts <span>The user can manage accounts with this permission</span></h5>
+                                        </div>
+                                    </div>
+                                    <!-- end permission single -->
+                                </div>
+                                <div class="col-md-4 col-sm-6">
+                                    <!-- permission single -->
+                                    <div class="permission-single">
+                                        <label class="check_container">
+                                            <input type="checkbox">
+                                            <span class="checkmark"></span>
+                                        </label>
+                                        <div class="content">
+                                            <h5>Manage Accounts <span>The user can manage accounts with this permission</span></h5>
+                                        </div>
+                                    </div>
+                                    <!-- end permission single -->
+                                </div>
+                                <div class="col-md-4 col-sm-6">
+                                    <!-- permission single -->
+                                    <div class="permission-single">
+                                        <label class="check_container">
+                                            <input type="checkbox">
+                                            <span class="checkmark"></span>
+                                        </label>
+                                        <div class="content">
+                                            <h5>Create Customer <span>The user can manage accounts with this permission</span></h5>
+                                        </div>
+                                    </div>
+                                    <!-- end permission single -->
+                                </div>
+                                <div class="col-md-4 col-sm-6">
+                                    <!-- permission single -->
+                                    <div class="permission-single">
+                                        <label class="check_container">
+                                            <input type="checkbox" checked="checked">
+                                            <span class="checkmark"></span>
+                                        </label>
+                                        <div class="content">
+                                            <h5>Edit User <span>The user can manage accounts with this permission</span></h5>
+                                        </div>
+                                    </div>
+                                    <!-- end permission single -->
+                                </div>
+                                <div class="col-md-4 col-sm-6">
+                                    <!-- permission single -->
+                                    <div class="permission-single">
+                                        <label class="check_container">
+                                            <input type="checkbox" checked="checked">
+                                            <span class="checkmark"></span>
+                                        </label>
+                                        <div class="content">
+                                            <h5>Print Receipts <span>The user can manage accounts with this permission</span></h5>
+                                        </div>
+                                    </div>
+                                    <!-- end permission single -->
+                                </div>
+                                <div class="col-md-4 col-sm-6">
+                                    <!-- permission single -->
+                                    <div class="permission-single">
+                                        <label class="check_container">
+                                            <input type="checkbox" checked="checked">
+                                            <span class="checkmark"></span>
+                                        </label>
+                                        <div class="content">
+                                            <h5>Edit Customer <span>The user can manage accounts with this permission</span></h5>
+                                        </div>
+                                    </div>
+                                    <!-- end permission single -->
+                                </div>
+                                <div class="col-md-4 col-sm-6">
+                                    <!-- permission single -->
+                                    <div class="permission-single">
+                                        <label class="check_container">
+                                            <input type="checkbox" checked="checked">
+                                            <span class="checkmark"></span>
+                                        </label>
+                                        <div class="content">
+                                            <h5>Delete User <span>The user can manage accounts with this permission</span></h5>
+                                        </div>
+                                    </div>
+                                    <!-- end permission single -->
+                                </div>
+                                <div class="col-md-4 col-sm-6">
+                                    <!-- permission single -->
+                                    <div class="permission-single">
+                                        <label class="check_container">
+                                            <input type="checkbox">
+                                            <span class="checkmark"></span>
+                                        </label>
+                                        <div class="content">
+                                            <h5>Generate Reports <span>The user can manage accounts with this permission</span></h5>
+                                        </div>
+                                    </div>
+                                    <!-- end permission single -->
+                                </div>
+                                <div class="col-md-4 col-sm-6">
+                                    <!-- permission single -->
+                                    <div class="permission-single">
+                                        <label class="check_container">
+                                            <input type="checkbox" checked="checked">
+                                            <span class="checkmark"></span>
+                                        </label>
+                                        <div class="content">
+                                            <h5>Manage Accounts <span>The user can manage accounts with this permission</span></h5>
+                                        </div>
+                                    </div>
+                                    <!-- end permission single -->
+                                </div>
+                                <div class="col-md-4 col-sm-6">
+                                    <!-- permission single -->
+                                    <div class="permission-single">
+                                        <label class="check_container">
+                                            <input type="checkbox">
+                                            <span class="checkmark"></span>
+                                        </label>
+                                        <div class="content">
+                                            <h5>Delete Customer <span>The user can manage accounts with this permission</span></h5>
+                                        </div>
+                                    </div>
+                                    <!-- end permission single -->
+                                </div>
+                                <div class="col-md-4 col-sm-6">
+                                    <!-- permission single -->
+                                    <div class="permission-single">
+                                        <label class="check_container">
+                                            <input type="checkbox" checked="checked">
+                                            <span class="checkmark"></span>
+                                        </label>
+                                        <div class="content">
+                                            <h5>View User <span>The user can manage accounts with this permission</span></h5>
+                                        </div>
+                                    </div>
+                                    <!-- end permission single -->
+                                </div>
+                            </div>
+                        </div>
+                        <!-- end permission list -->
+                    </div>
+                    <!-- end body content -->
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end main content -->
+
+
+
+
+    <!-- ================  all javascript link
+    ========================= -->
+    <!-- jquery.min -->
+    <script src="assets/js/jquery.min.js"></script>
+    <!-- popper.min -->
+    <script src="assets/js/popper.min.js"></script>
+    <!-- bootstrap -->
+    <script src="assets/js/bootstrap.min.js"></script>
+    <!-- custom js -->
+    <script src="assets/js/custom.js"></script>
+</body>
+
+</html>
